@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>SEGI - Sonic Ether Globall Illumination</Name>
+  <Author>Erdroy</Author>
+  <Version>0.2.2582.12315</Version>
+  <Description>WARNING: This mod will not work, unless you install Stationeers.Addon mod loader.
+Read how to install it here: https://github.com/Erdroy/Stationeers.Addons
+---
+
+This modds adds experimental fully-dynamic voxel-based global illumination to the game. This is pretty heavy and not ready to use.
+It is more likely just an experiment with our Stationers.Addons framework.</Description>
+  <WorkshopHandle>2308921579</WorkshopHandle>
+  <Tags />
+</ModMetadata>
