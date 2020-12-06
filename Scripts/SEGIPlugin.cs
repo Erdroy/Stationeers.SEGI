@@ -3,14 +3,16 @@
 using Stationeers.Addons;
 using UnityEngine;
 
-namespace SEGI.Scripts
+namespace SEGIPlugin.Scripts
 {
-    public class SEGI : IPlugin
+    public class SEGIPlugin : IPlugin
     {
         public void OnLoad()
         {
             Debug.Log("SEGI: Hello, World!");
-
+            var gameObject = new GameObject("SEGI");
+            Object.DontDestroyOnLoad(gameObject);
+            gameObject.AddComponent<SEGIManager>();
         }
 
         public void OnUnload()

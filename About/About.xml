@@ -7,8 +7,10 @@
 Read how to install it here: https://github.com/Erdroy/Stationeers.Addons
 ---
 
-This modds adds experimental fully-dynamic voxel-based global illumination to the game. This is pretty heavy and not ready to use.
-It is more likely just an experiment with our Stationers.Addons framework.</Description>
-  <WorkshopHandle>2308921579</WorkshopHandle>
+Work in progress. Currently not working and missing some code.
+This mod adds experimental fully-dynamic voxel-based global illumination to the game. This is pretty heavy and not ready to use.
+It is more likely just an experiment with our Stationers.Addons framework.
+  </Description>
+  <WorkshopHandle>2308956244</WorkshopHandle>
   <Tags />
 </ModMetadata>
