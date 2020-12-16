@@ -47,6 +47,12 @@ namespace SEGIPlugin.Scripts
                     highResVoxels = GUILayout.Toggle(highResVoxels, "voxelResolution = " + component.voxelResolution);
                     component.voxelResolution = !highResVoxels ? CurrentSEGI.VoxelResolution.low : CurrentSEGI.VoxelResolution.high;
 
+                    GUILayout.Label("voxelSpaceSize = " + component.voxelSpaceSize);
+                    component.voxelSpaceSize = GUILayout.HorizontalSlider(component.voxelSpaceSize, 1.0f, 100.0f);
+
+                    GUILayout.Label("shadowSpaceSize = " + component.shadowSpaceSize);
+                    component.shadowSpaceSize = GUILayout.HorizontalSlider(component.shadowSpaceSize, 1.0f, 100.0f);
+
                     component.voxelAA = GUILayout.Toggle(component.voxelAA, "component.voxelAA = " + component.voxelAA);
                     GUILayout.Label("innerOcclusionLayers = " + component.innerOcclusionLayers);
                     component.innerOcclusionLayers = (int)GUILayout.HorizontalSlider(component.innerOcclusionLayers, 0, 2);
